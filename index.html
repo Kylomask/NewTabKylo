@@ -1,0 +1,22 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    
+  </head>
+  <body>\
+
+    <input type="text" id="fquery" name="fquery"> <button type="button" onclick=call_q(fquery.value)>Search!</button>
+    
+    <script>
+        function call_q(qword){
+            window.location.href = "http://www.google.com/search?q=%22"+qword;
+        }
+    </script>
+      <script src="sketch.js"></script>
+  
+
+</body></html>
